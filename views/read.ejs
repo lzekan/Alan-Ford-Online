@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/font.css">
+    <link rel="stylesheet" type="text/css" href="../styles/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="../styles/read.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="icon" href="../images/af_logo.jpg" type = "image/x-icon">
+
+    <script src="../scripts/read.js"></script>
+
+    <title><%= comic.id.toString().padStart(3, '0'); %> <%= comic.title %></title>
+
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="big-black-div" id="big-black-div">
+
+            <iframe name="nothing" style="display: none;"></iframe>
+            <form method="post" target="nothing">
+                <input type="submit" class="big-black-div-btn" onclick="leaveReadingMode();" value="X">
+
+                <div class="comic-page">
+                    <div class="comic-page-div" id="comic-page-div">
+                        <div id="page-minus"> << </div>
+                        <div class="comic-page-img-div">
+                            <img src="" class="comic-page-img" id="comic-page-img">
+                        </div>
+                        <div id="page-plus"> >> </div>
+                    </div>
+
+                    <div class="comic-page-no">
+                        <p><input type="text" id="comic-page-no" class="no" value="1" maxlength="2" name="page">  / <%= comic.pages.length %></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <%- include(`partials/sidebar`) %>
+
+        <div class="content">
+            <div class="comic-cover-div">
+                <img src=<%= cover %> class="comic-cover-img">
+            </div>
+
+            <div class="comic-info">
+                <div class="comic-title">
+                    <p class="comic-title-af">Alan Ford</p>
+                    <p class="comic-title-number"><%= comic.id.toString().padStart(3, '0'); %> <%= comic.title %></p>
+                </div>
+                <button class="comic-btn" id="comic-btn" onclick="enterReadingMode(<%= JSON.stringify(comic.pages) %>);" 
+                    onmouseover="sendLastPage(<%= lastPage %>)"> <% if(lastPage > 1) {%> Nastavite gdje ste stali... <% } else { %> Kreni s čitanjem <% } %></button>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+</html>

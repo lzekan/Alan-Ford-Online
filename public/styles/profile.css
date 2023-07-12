@@ -1,0 +1,147 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    padding: 2rem;
+}
+
+.content-upper {
+    margin-left: auto;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-content: center;
+}
+
+.content-upper-data {
+    font-size: 1.5rem;
+}
+
+.content-upper-data p {
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    background-color: snow;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: right;
+}
+
+.content-upper-img-div {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    margin-left: 2rem;
+    align-self: center;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+.content-upper-img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-lower {
+    background-color: snow;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-lower-info {
+    margin-left: auto;
+    position: relative;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.content-lower-info img {
+    height: 50px;
+    width: 50px;
+}
+
+.content-lower-info:hover{
+    cursor: help;
+}
+  
+.content-lower-info:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 200px;
+    background-color: snow;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    line-height: 150%;
+    border: 1px solid black;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+}
+  
+.content-lower-info:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.profile-info {
+    padding: 1.75rem 3rem;
+}
+
+.profile-info label {
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.profile-info-input {
+    margin-left: 5rem;
+    width: 60%;
+    height: 2em;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: inherit;
+    font-size: 1.2rem;
+}
+
+.profile-data-submit {
+    background-color: inherit;
+    border-radius: 1em;
+    padding: 1.5em 2.5em;
+    float: right;
+    font-size: 1rem;
+}
+
+.profile-data-submit:hover{
+    background-color: lightyellow;
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.profile-err-btn{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-err {
+    color: red;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.profile-msg {
+    color: green;
+    font-size: 1.5rem;
+    align-self: center;
+}

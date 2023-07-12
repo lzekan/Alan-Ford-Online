@@ -1,0 +1,423 @@
+
+    [
+        {
+            "title": "001 Grupa TNT",
+            "cover":  "../images/af_coveri/af_cover_1.jpg"
+        },
+        {
+            "title": "002 Šuplji zub",
+            "cover":  "../images/af_coveri/af_cover_2.jpg"
+        },
+        {
+            "title": "003 Operacija Frankenstein",
+            "cover":  "../images/af_coveri/af_cover_3.jpg"
+        },
+        {
+            "title": "004 Kuća duhova",
+            "cover":  "../images/af_coveri/af_cover_4.jpg"
+        },
+        {
+            "title": "005 Daj! Daj! Daj!",
+            "cover":  "../images/af_coveri/af_cover_5.jpg"
+        },
+                {
+            "title": "006 Traži se Alex Barry",
+            "cover":  "../images/af_coveri/af_cover_6.jpg"
+        },
+        {
+            "title": "007 Ucviljeni diktator",
+            "cover":  "../images/af_coveri/af_cover_7.jpg"
+        },
+        {
+            "title": "008 Zimska idila",
+            "cover":  "../images/af_coveri/af_cover_8.jpg"
+        },
+        {
+            "title": "009 Zoo simfonija",
+            "cover":  "../images/af_coveri/af_cover_9.jpg"
+        },
+        {
+            "title": "010 Formule",
+            "cover":  "../images/af_coveri/af_cover_10.jpg"
+        },
+        {
+            "title": "011 Broj 1",
+            "cover":  "../images/af_coveri/af_cover_11.jpg"
+        },
+        {
+            "title": "012 Žalosna priča o mladom bogatašu",
+            "cover":  "../images/af_coveri/af_cover_12.jpg"
+        },
+        {
+            "title": "013 Golf",
+            "cover":  "../images/af_coveri/af_cover_13.jpg"
+        },
+        {
+            "title": "014 Jedan, dva, tri, četiri",
+            "cover":  "../images/af_coveri/af_cover_14.jpg"
+        },
+        {
+            "title": "015 Udar munje",
+            "cover":  "../images/af_coveri/af_cover_15.jpg"
+        },
+                {
+            "title": "016 (Ne) glasajte za Notaxa",
+            "cover":  "../images/af_coveri/af_cover_16.jpg"
+        },
+        {
+            "title": "017 Ljekovita voda",
+            "cover":  "../images/af_coveri/af_cover_17.jpg"
+        },
+        {
+            "title": "018 Pas za milijun dolara",
+            "cover":  "../images/af_coveri/af_cover_18.jpg"
+        },
+        {
+            "title": "019 Trojica iz Yume",
+            "cover":  "../images/af_coveri/af_cover_19.jpg"
+        },
+        {
+            "title": "020 Frit i Frut",
+            "cover":  "../images/af_coveri/af_cover_20.jpg"
+        },
+        {
+            "title": "021 Čuvaj se bombe",
+            "cover":  "../images/af_coveri/af_cover_21.jpg"
+        },
+        {
+            "title": "022 U strahu su velike oči",
+            "cover":  "../images/af_coveri/af_cover_22.jpg"
+        },
+        {
+            "title": "023 San jedne zimske noći",
+            "cover":  "../images/af_coveri/af_cover_23.jpg"
+        },
+        {
+            "title": "024 U potrazi za bombom",
+            "cover":  "../images/af_coveri/af_cover_24.jpg"
+        },
+        {
+            "title": "025 Skok na skok",
+            "cover":  "../images/af_coveri/af_cover_25.jpg"
+        },
+                {
+            "title": "026 Superhik",
+            "cover":  "../images/af_coveri/af_cover_26.jpg"
+        },
+        {
+            "title": "027 Superhik - Alkohol prijeti",
+            "cover":  "../images/af_coveri/af_cover_27.jpg"
+        },
+        {
+            "title": "028 Superhik - Razbijena boca",
+            "cover":  "../images/af_coveri/af_cover_28.jpg"
+        },
+        {
+            "title": "029 Cirkus",
+            "cover":  "../images/af_coveri/af_cover_29.jpg"
+        },
+        {
+            "title": "030 Bradati pljačkaši",
+            "cover":  "../images/af_coveri/af_cover_30.jpg"
+        },
+        {
+            "title": "031 Dan vještica",
+            "cover":  "../images/af_coveri/af_cover_31.jpg"
+        },
+        {
+            "title": "032 Kad srce radi bi-bim ba-bam",
+            "cover":  "../images/af_coveri/af_cover_32.jpg"
+        },
+        {
+            "title": "033 Pljačkaš",
+            "cover":  "../images/af_coveri/af_cover_33.jpg"
+        },
+        {
+            "title": "034 Vesela dolina",
+            "cover":  "../images/af_coveri/af_cover_34.jpg"
+        },
+        {
+            "title": "035 Dvanaest umjetnika",
+            "cover":  "../images/af_coveri/af_cover_35.jpg"
+        },
+                {
+            "title": "036 Centurion",
+            "cover":  "../images/af_coveri/af_cover_36.jpg"
+        },
+        {
+            "title": "037 Pukovnik Kattycat",
+            "cover":  "../images/af_coveri/af_cover_37.jpg"
+        },
+        {
+            "title": "038 Godišnji odmor",
+            "cover":  "../images/af_coveri/af_cover_38.jpg"
+        },
+        {
+            "title": "039 Dobra stara vremena",
+            "cover":  "../images/af_coveri/af_cover_39.jpg"
+        },
+        {
+            "title": "040 Ekologija",
+            "cover":  "../images/af_coveri/af_cover_40.jpg"
+        },
+        {
+            "title": "041 Slatka afera",
+            "cover":  "../images/af_coveri/af_cover_41.jpg"
+        },
+        {
+            "title": "042 Vrijeme darivanja",
+            "cover":  "../images/af_coveri/af_cover_42.jpg"
+        },
+        {
+            "title": "043 Novogodišnja proslava",
+            "cover":  "../images/af_coveri/af_cover_43.jpg"
+        },
+        {
+            "title": "044 Bila jednom nagrada",
+            "cover":  "../images/af_coveri/af_cover_44.jpg"
+        },
+        {
+            "title": "045 Klavirski koncert",
+            "cover":  "../images/af_coveri/af_cover_45.jpg"
+        },
+        {
+            "title": "046 Sve ili metak",
+            "cover":  "../images/af_coveri/af_cover_46.jpg"
+        },
+        {
+            "title": "047 Neprijatelj prirode broj 1",
+            "cover":  "../images/af_coveri/af_cover_47.jpg"
+        },
+        {
+            "title": "048 Umro je bogati ujak",
+            "cover":  "../images/af_coveri/af_cover_48.jpg"
+        },
+        {
+            "title": "049 Derbi",
+            "cover":  "../images/af_coveri/af_cover_49.jpg"
+        },
+        {
+            "title": "050 Tako je nastala grupa TNT",
+            "cover":  "../images/af_coveri/af_cover_50.jpg"
+        },
+        {
+            "title": "051 Povratak Superhika",
+            "cover":  "../images/af_coveri/af_cover_51.jpg"
+        },
+        {
+            "title": "052 Superhikov veliki pothvat",
+            "cover":  "../images/af_coveri/af_cover_52.jpg"
+        },
+        {
+            "title": "053 Arsen Lupiga",
+            "cover":  "../images/af_coveri/af_cover_53.jpg"
+        },
+        {
+            "title": "054 Nestao je BuBu",
+            "cover":  "../images/af_coveri/af_cover_54.jpg"
+        },
+        {
+            "title": "055 Stupica za grupu TNT",
+            "cover":  "../images/af_coveri/af_cover_55.jpg"
+        },
+        {
+            "title": "056 Poziv na krstarenje",
+            "cover":  "../images/af_coveri/af_cover_56.jpg"
+        },
+        {
+            "title": "057 Spašavaj se tko može!",
+            "cover":  "../images/af_coveri/af_cover_57.jpg"
+        },
+        {
+            "title": "058 Skok u prazno",
+            "cover":  "../images/af_coveri/af_cover_58.jpg"
+        },
+        {
+            "title": "059 Gužva u Monte Kablu",
+            "cover":  "../images/af_coveri/af_cover_59.jpg"
+        },
+        {
+            "title": "060 Udar",
+            "cover":  "../images/af_coveri/af_cover_60.jpg"
+        },
+        {
+            "title": "061 Krokodilska glava",
+            "cover":  "../images/af_coveri/af_cover_61.jpg"
+        },
+        {
+            "title": "062 3 brata Rock",
+            "cover":  "../images/af_coveri/af_cover_62.jpg"
+        },
+        {
+            "title": "063 Isto, Isto...",
+            "cover":  "../images/af_coveri/af_cover_63.jpg"
+        },
+        {
+            "title": "064 Trio Fantastikus",
+            "cover":  "../images/af_coveri/af_cover_64.jpg"
+        },
+        {
+            "title": "065 Udarac s boka",
+            "cover":  "../images/af_coveri/af_cover_65.jpg"
+        },
+        {
+            "title": "066 Sumnjiv posao",
+            "cover":  "../images/af_coveri/af_cover_66.jpg"
+        },
+        {
+            "title": "067 Besplatni podvig",
+            "cover":  "../images/af_coveri/af_cover_67.jpg"
+        },
+        {
+            "title": "068 Sportska afera",
+            "cover":  "../images/af_coveri/af_cover_68.jpg"
+        },
+        {
+            "title": "069 Iznenadna ideja",
+            "cover":  "../images/af_coveri/af_cover_69.jpg"
+        },
+        {
+            "title": "070 U kolo s otmičarem",
+            "cover":  "../images/af_coveri/af_cover_70.jpg"
+        },
+        {
+            "title": "071 Susret s vampirom",
+            "cover":  "../images/af_coveri/af_cover_71.jpg"
+        },
+        {
+            "title": "072 Vampiri u New Yorku",
+            "cover":  "../images/af_coveri/af_cover_72.jpg"
+        },
+        {
+            "title": "073 Doktor Rakar",
+            "cover":  "../images/af_coveri/af_cover_73.jpg"
+        },
+        {
+            "title": "074 Superhik opet napada",
+            "cover":  "../images/af_coveri/af_cover_74.jpg"
+        },
+        {
+            "title": "075 Odlazak Superhika",
+            "cover":  "../images/af_coveri/af_cover_75.jpg"
+        },
+        {
+            "title": "076 Sjećam se...",
+            "cover":  "../images/af_coveri/af_cover_76.jpg"
+        },
+        {
+            "title": "077 Podružnica",
+            "cover":  "../images/af_coveri/af_cover_77.jpg"
+        },
+        {
+            "title": "078 Veliki zadatak",
+            "cover":  "../images/af_coveri/af_cover_78.jpg"
+        },
+        {
+            "title": "079 Potraga za sinom",
+            "cover":  "../images/af_coveri/af_cover_79.jpg"
+        },
+        {
+            "title": "080 Nijagara",
+            "cover":  "../images/af_coveri/af_cover_80.jpg"
+        },
+        {
+            "title": "081 Bijeg Arsena Lupige",
+            "cover":  "../images/af_coveri/af_cover_81.jpg"
+        },
+        {
+            "title": "082 Putovanje raketom",
+            "cover":  "../images/af_coveri/af_cover_82.jpg"
+        },
+        {
+            "title": "083 Najcrnija kronika",
+            "cover":  "../images/af_coveri/af_cover_83.jpg"
+        },
+        {
+            "title": "084 Narednik Gruber",
+            "cover":  "../images/af_coveri/af_cover_84.jpg"
+        },
+        {
+            "title": "085 Veliki biznis",
+            "cover":  "../images/af_coveri/af_cover_85.jpg"
+        },
+        {
+            "title": "086 Hladni pol",
+            "cover":  "../images/af_coveri/af_cover_86.jpg"
+        },
+        {
+            "title": "087 Odluka u pravi čas",
+            "cover":  "../images/af_coveri/af_cover_87.jpg"
+        },
+        {
+            "title": "088 Beppa Joseph se vraća",
+            "cover":  "../images/af_coveri/af_cover_88.jpg"
+        },
+        {
+            "title": "089 Dobročinitelj",
+            "cover":  "../images/af_coveri/af_cover_89.jpg"
+        },
+        {
+            "title": "090 Bombaš",
+            "cover":  "../images/af_coveri/af_cover_90.jpg"
+        },
+        {
+            "title": "091 Pop art",
+            "cover":  "../images/af_coveri/af_cover_91.jpg"
+        },
+        {
+            "title": "092 Krck Fu",
+            "cover":  "../images/af_coveri/af_cover_92.jpg"
+        },
+        {
+            "title": "093 Ponovo Baby Kate",
+            "cover":  "../images/af_coveri/af_cover_93.jpg"
+        },
+        {
+            "title": "094 Piroman",
+            "cover":  "../images/af_coveri/af_cover_94.jpg"
+        },
+        {
+            "title": "095 Mjesec zove Skylab",
+            "cover":  "../images/af_coveri/af_cover_95.jpg"
+        },
+        {
+            "title": "096 Opasnost iz svemira",
+            "cover":  "../images/af_coveri/af_cover_96.jpg"
+        },
+        {
+            "title": "097 Zabranjen udarac",
+            "cover":  "../images/af_coveri/af_cover_97.jpg"
+        },
+        {
+            "title": "098 Djevojka zvana Brenda",
+            "cover":  "../images/af_coveri/af_cover_98.jpg"
+        },
+        {
+            "title": "099 Broadway",
+            "cover":  "../images/af_coveri/af_cover_99.jpg"
+        },
+        {
+            "title": "100 Crne planine Južne Dakote",
+            "cover":  "../images/af_coveri/af_cover_100.jpg"
+        },
+        {
+            "title": "101 Sastanak na groblju",
+            "cover":  "../images/af_coveri/af_cover_101.jpg"
+        },        
+        {
+            "title": "108 Daj, daj, samuraj!",
+            "cover":  "../images/af_coveri/af_cover_108.jpg"
+        },
+        {
+            "title": "110 Gumiflex",
+            "cover":  "../images/af_coveri/af_cover_110.jpg"
+        },
+        {
+            "title": "112 Hipnos",
+            "cover":  "../images/af_coveri/af_cover_112.jpg"
+        }
+
+
+
+    ]
+

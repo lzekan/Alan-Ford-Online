@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/font.css">
+    <link rel="stylesheet" type="text/css" href="../styles/history.css">
+    <link rel="stylesheet" type="text/css" href="../styles/home.css">
+    <link rel="stylesheet" type="text/css" href="../styles/sidebar.css">
+
+    <link rel="icon" href="../images/af_logo.jpg" type = "image/x-icon">
+
+    <script src="../scripts/history.js"></script>
+
+    <title>Alan Ford Online</title>
+</head>
+
+<body onload="showReadOnes(<%= JSON.stringify(data) %>, <%= JSON.stringify(progress) %>, 0);">
+    <div class="wrapper">
+        <%- include(`partials/sidebar`); %>
+        <div class="list">
+            <div class="list-options">
+                <div class="option option-clicked" id="option-unread" onclick="showReadOnes(<%= JSON.stringify(data) %>, <%= JSON.stringify(progress) %>, 0);">
+                    Nepročitani 
+                </div>
+                <div class="option" id="option-read" onclick="showReadOnes(<%= JSON.stringify(data) %>, <%= JSON.stringify(progress) %>, 1);">
+                    Pročitani
+                </div>
+            </div>
+            
+            <div class="list-comics" id="list-comics">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

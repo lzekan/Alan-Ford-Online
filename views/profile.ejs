@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Ford Online</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/font.css">
+    <link rel="stylesheet" type="text/css" href="../styles/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="../styles/profile.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="icon" href="../images/af_logo.jpg" type = "image/x-icon">
+    <script src="../scripts/profile.js"></script>
+
+</head>
+<body>
+
+    <%- include(`partials/sidebar`); %>
+
+    <div class="wrapper">
+        <div class="content">
+            <div class="content-upper">
+                <div class="content-upper-data">
+                    <p><%= user.firstName %> <%= user.lastName %> </p>
+                    <p><%= user.email %></p>
+                </div>
+                <div class="content-upper-img-div" id="upper-div">
+                    <img src="<%= user.ppUrl %>" class ="content-upper-img pp-img" id="pp-img">  
+                </div>
+                
+                <section method="post" action="/profile/post1" id="pp-form">
+                    <input type="file" id="pp-input">
+                    <button id="pp-btn">Pošalji</button>
+                </section>
+
+            </div>
+
+            <div class="content-lower">
+                <span class="content-lower-info" data-hover="Za promjenu podataka o profilu izmijenite željeni podatak u formi te upišite lozinku prije spremanja promjena.
+                    Za promjenu lozinke dovoljno je upisati novu lozinku i potvrditi je prije spremanja promjena."><img src="../images/af_icon_info.png"></span>
+                <form method="post" class="profile-post">
+                    <div class="profile-info">
+                        <label> Ime: </label>
+                        <input type="text" class="profile-info-input" name="firstname" value="<%= user.firstName %>">
+                    </div> 
+                    <div class="profile-info">
+                        <label> Prezime: </label>
+                        <input type="text" class="profile-info-input" name="lastname" value="<%= user.lastName %>">
+                    </div> 
+                    <div class="profile-info">
+                        <label> Email: </label>
+                        <input type="text" class="profile-info-input" name="email" value="<%= user.email %>">
+                    </div> 
+                    <div class="profile-info">
+                        <label> Korisničko ime: </label>
+                        <input type="text" class="profile-info-input" name="username" value="<%= user.username %>">
+                    </div> 
+                    <div class="profile-info">
+                        <label> Lozinka: </label>
+                        <input type="password" class="profile-info-input" name="password1" minlength="5" required>
+                    </div> 
+                    <div class ="profile-info"> 
+                        <label>Potvrdi lozinku:</label>
+                        <input type="password" class="profile-info-input" name="password2" minlength="5" required>
+                    </div>
+
+
+                    <div class="profile-err-btn">
+                        <% if (err !== undefined ) { %>
+                            <span class="profile-err"><%= err %></span>
+                        <% } else if (msg !== undefined) { %>
+                            <span class="profile-msg"><%= msg %></span>
+                        <% } %>
+                        <input type="submit" class="profile-data-submit" value="Spremi promjene">
+                    </div>
+
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>

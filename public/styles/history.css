@@ -1,0 +1,95 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffff66;
+    width: 60%;
+    border-radius: 3rem;
+}
+
+.list-comics {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-progress {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: snow;
+    width: 70%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.8em;
+    border: 1px solid black
+}
+
+.list-progress-img-div {
+    height: 8rem;
+}
+
+.list-progress-img {
+    height: 100%;
+}
+
+.list-progress-info {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.list-progress-info p {
+    margin: 0;
+}
+
+.list-progress-btn {
+    background-color: black;
+    color: #ffff66;
+    padding: 1.25rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-self: flex-end;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: center;
+}   
+
+.list-progress-btn:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.list-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.option {
+    padding: 2rem 3rem;
+    background-color: snow;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.option-clicked {
+    background-color: lightslategrey;
+    color: whitesmoke;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.list-empty {
+    text-align: center;
+    font-size: 2rem;
+}

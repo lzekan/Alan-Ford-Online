@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../styles/background.css">
+    <link rel="stylesheet" type="text/css" href="../styles/font.css">
+    <link rel="stylesheet" type="text/css" href="./styles/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+
+    <script src="../scripts/login.js"></script>
+
+    <link rel="icon" href="images/af_logo.jpg" type = "image/x-icon">
+    <title> <%= title %></title>
+</head>
+
+<body>
+    
+    <div class= <%= type === 'register' ? "login-form-hidden" : "login-form-visible" %> id="login-form">
+        <form method="post" class="login-div">
+            <div class="login-div-marginized">
+                <header class="login-headlabel">Prijavi se</header>
+
+                <div class="login-input-divs">
+                    <div class="login-input-div first-one">
+                        <label>Korisničko ime: </label>
+                        <input type="text" class="login-input-data" name="username" placeholder="npr. peroperic123">
+                    </div>
+                    <div class="login-input-div">
+                        <label> Lozinka: </label>
+                        <input type="password" class="login-input-data" name="password" placeholder="●●●●●●">
+                    </div> 
+                </div>
+
+                <footer class= "login-err-btn">
+                    <% if (errLogin !== undefined ) { %>
+                        <span class="login-err" id="login-err"><%= errLogin %></span>
+                    <% } %>
+                    <input type="submit" class="login-btn" value="Prijava">
+                </footer>
+            </div>
+        </form>
+
+        <div class="cover-div">
+            <div class="cover-img-div">
+                <img src="images/af_cover.jpg" class="cover-img">
+            </div>
+
+            <p class="cover-signin">Nemaš račun? <span onclick="swapForms()">Registriraj se.</span></p>
+        </div>
+    </div>
+
+    <div class= <%= type === 'register' ? "reg-form-visible" : "reg-form-hidden" %> id="reg-form">
+        <div class="cover-div">
+            <div class="cover-img-div">
+                <img src="images/af_cover2.jpg" class="cover-img">
+            </div>
+
+            <p class="cover-signin">Već imaš račun? <span onclick="swapForms()">Prijavi se.</span></p>
+        </div>
+
+        <form method="post" class="reg-div">
+            <div class="reg-div-marginized">
+                <header class="reg-headlabel">Registriraj se</header>
+
+                <div class="reg-input-divs">
+                    <div class="reg-name-surname">
+                        <div class ="reg-input-div first-one">
+                            <label>Ime:</label>
+                            <input type="text" class="reg-input-data ns" name="regFirstName" required>
+                        </div>
+                        <div class ="reg-input-div first-one">
+                            <label>Prezime:</label>
+                            <input type="text" class="reg-input-data ns" name="regLastName" required>
+                        </div>
+                    </div>
+                    <div class ="reg-input-div">
+                        <label>Korisničko ime:</label>
+                        <input type="text" class="reg-input-data" name="regUsername" required>
+                    </div>
+                    <div class ="reg-input-div">
+                        <label>Email:</label>
+                        <input type="email" class="reg-input-data" name="regEmail" required>
+                    </div>
+                    <div class ="reg-input-div"> 
+                        <label>Lozinka:</label>
+                        <input type="password" class="reg-input-data" name="regPassword1" required>
+                    </div>
+                    <div class ="reg-input-div"> 
+                        <label>Potvrdi lozinku:</label>
+                        <input type="password" class="reg-input-data" name="regPassword2" required>
+                    </div>
+                </div>
+
+                <footer class= "reg-err-btn">
+                    <% if (errReg !== undefined ) { %>
+                        <span class="reg-err" id="reg-err"><%= errReg %></span>
+                    <% } %>
+                    <input type="submit" class="reg-btn" value="Registracija">
+                </footer>
+		</div>
+
+        </form>
+
+
+    </div>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,53 @@
+<div class="sidebar" id="sidebar">
+
+    <div class="sidebar-content-unhovered">
+        <header class="sidebar-header">
+
+            <div class="profile-data-img-div">
+                <img src="<%= user.ppUrl %>" class="profile-data-img pp-img">
+            </div>
+            <div class="profile-data-name"><%= user.firstName[0] + '' + user.lastName[0] %></div>
+        </header>
+
+        <div class="sidebar-menu">
+            <img src="../images/af_icon_profile.png" class="sidebar-icon">
+            <img src="../images/af_icon_menu.png" class="sidebar-icon">
+            <img src="../images/af_icon_history.png" class="sidebar-icon">
+            <img src="../images/af_icon_analytics.png" class="sidebar-icon">
+        </div>
+
+
+        <footer class="sidebar-footer">
+            <img src="../images/af_icon_logout.png" class="sidebar-icon"> 
+        </footer>  
+    </div>
+
+    <div class="sidebar-content-hovered" hidden>
+        <header class="sidebar-header">
+
+            <div class="profile-data">
+                <div class="profile-data-img-div">
+                    <img src="<%= user.ppUrl %>" class="profile-data-img pp-img">
+                </div>
+                <div class="profile-data-name"><%= user.firstName + ' ' + user.lastName %></div>
+            </div>
+
+        </header>
+
+        <div class="sidebar-menu">
+            <a href="../profile">Profil</a>
+            <a href="../home">Menu</a>
+            <a href="../history">Povijest čitanja</a>
+            <a href="../analytics">Analitika</a>
+        </div>
+
+
+        <footer class="sidebar-footer">
+            <a href="../login" class='a-logout'>Odjava</a> 
+        </footer>  
+    </div>
+    
+
+
+        
+</div>
