@@ -1,0 +1,22 @@
+3 - 47
+7 - 32
+35 - 18, 19, 20, 21, 60, 61, 62
+36 - 26, 27, 28, 29, 30
+43 - cili
+68 - dosta
+91 - dosta
+92 - 40, 41, 42, 43, 45
+93 - nesto
+96 - neke su iskidane
+97 - neka pizdarija na pocetku
+
+
+
+promini sve slike u webp format
+sve slike digni na neki cloud storage
+kad bude gotova stranica, zakupi domenu i nadi neki service kojin
+ces dignit stranicu na domenu
+
+
+https://alan-ford-online-bucket.s3.eu-west-2.amazonaws.com/pp-lzekan?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIASBJJRKFLENVNM5PL%2F20220823%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220823T104257Z&X-Amz-Expires=60&X-Amz-
+Signature=5cb22d7421079b0eb91befb72728d35f534713d8aa75ff4a0143cc51a21ef3f8&X-Amz-SignedHeaders=host
